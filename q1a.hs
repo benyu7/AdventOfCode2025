@@ -24,5 +24,5 @@ solve = countZeros . scanList . translate
 
 main :: IO ()
 main = do
-    contents <- readFile "q1a.txt"
+    contents <- readFile "q1.txt"
     print (solve (lines contents))
